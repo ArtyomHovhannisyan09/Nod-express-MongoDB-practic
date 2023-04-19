@@ -1,0 +1,25 @@
+
+ 
+
+.appmodel {
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .appmodel span.completed {
+    text-decoration: line-through;
+  }
+  
+  .appmodel label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+  }
+  
+  .appmodel i {
+    z-index: 2;
+  }
